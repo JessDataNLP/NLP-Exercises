@@ -14,6 +14,6 @@ The following are the main steps involved in building this system:
 
 **Similarity Calculation** : We calculate the similarity between movies using the cosine similarity algorithm. Cosine similarity calculates the cosine of the angle between two vectors and is used to determine the similarity between them.
 
-    **Recommendation** : We then use the calculated similarity scores to recommend movies to users based on their search query.
+ **Recommendation** : We then use the calculated similarity scores to recommend movies to users based on their search query.
 
 This project uses Python programming language and various libraries such as pandas, numpy, scikit-learn, and nltk to preprocess the data and extract features. The final output is a movie recommendation system that suggests movies to users based on their search query.
