@@ -1,6 +1,6 @@
 # NLP-Exercises
 
-1. ## Movie Recommendation System using NLP and Cosine Similarity Algorithm
+## 1. Movie Recommendation System using NLP and Cosine Similarity Algorithm
 
 🎥 Overview: Build a movie recommendation system that suggests movies to users based on their search query, leveraging NLP techniques and the Cosine Similarity algorithm.
 
@@ -23,7 +23,7 @@
 
 🎯 Outcome: A movie recommendation system that suggests movies based on user preferences.
 
-2. ## Hate Speech Detection in Tweets using embeddings and Logistic regression
+## 2. Hate Speech Detection in Tweets using embeddings and Logistic regression
 
 🔍 Overview: Classify tweets into 'normal' and 'hate speech' categories using embeddings and logistic regression.
 
