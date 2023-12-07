@@ -4,13 +4,13 @@
 
 🎥 Overview: Build a movie recommendation system that suggests movies to users based on their search query, leveraging NLP techniques and the Cosine Similarity algorithm.
 
-    📊 Data Collection:
+    📈 Data Collection:
         Source dataset containing movie titles, plot summaries, etc.
 
     🔧 Data Preprocessing:
         Clean and prepare data by handling missing values, converting text to lowercase, removing stop words, and applying stemming.
 
-    📝 Feature Extraction:
+    📊 Feature Extraction:
         Utilize CountVectorizer and TfidfTransformer from scikit-learn for text data feature extraction.
 
     🧮 Similarity Calculation:
@@ -21,7 +21,7 @@
 
 🛠 Tools & Libraries: Python, pandas, numpy, scikit-learn, nltk.
 
-🎯 Outcome: A user-friendly movie recommendation system that intelligently suggests movies based on user preferences.
+🎯 Outcome: A movie recommendation system that suggests movies based on user preferences.
 
 2. ## Hate Speech Detection in Tweets using embeddings and Logistic regression
 
