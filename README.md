@@ -23,7 +23,7 @@
 
 🎯 Outcome: A movie recommendation system that suggests movies based on user preferences.
 
-## 2. Hate Speech Detection in Tweets using embeddings and Logistic regression
+## 2. Hate Speech Detection in Tweets using Embeddings and Logistic Regression
 
 🔍 Overview: Classify tweets into 'normal' and 'hate speech' categories using embeddings and logistic regression.
 
