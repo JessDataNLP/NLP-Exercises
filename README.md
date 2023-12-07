@@ -2,18 +2,47 @@
 
 1. ## Movie Recommendation System using NLP and Cosine Similarity Algorithm
 
-The goal of this project is to build a movie recommendation system that suggests movies to users based on their search query. This system uses Natural Language Processing (NLP) techniques to analyze the plot summaries of movies and identify the most similar movies using the Cosine Similarity algorithm.
+🎥 Overview: Build a movie recommendation system that suggests movies to users based on their search query, leveraging NLP techniques and the Cosine Similarity algorithm.
 
-The following are the main steps involved in building this system:
+    📊 Data Collection:
+        Source dataset containing movie titles, plot summaries, etc.
 
-**Data Collection** : We start by collecting data from a dataset of movies that contains various details such as movie title, plot summary, etc.
+    🔧 Data Preprocessing:
+        Clean and prepare data by handling missing values, converting text to lowercase, removing stop words, and applying stemming.
 
-**Data Preprocessing** : We preprocess the collected data by removing unnecessary data, handling missing data, and cleaning the text data by converting text to lowercase, removing stop words, and stemming the words.
+    📝 Feature Extraction:
+        Utilize CountVectorizer and TfidfTransformer from scikit-learn for text data feature extraction.
 
-**Feature Extraction** : We extract features from the preprocessed text data using the CountVectorizer and TfidfTransformer methods from the scikit-learn library.
+    🧮 Similarity Calculation:
+        Employ the cosine similarity algorithm to measure the similarity between movie plot vectors.
 
-**Similarity Calculation** : We calculate the similarity between movies using the cosine similarity algorithm. Cosine similarity calculates the cosine of the angle between two vectors and is used to determine the similarity between them.
+    🎬 Recommendation:
+        Generate movie recommendations based on similarity scores and user queries.
 
- **Recommendation** : We then use the calculated similarity scores to recommend movies to users based on their search query.
+🛠 Tools & Libraries: Python, pandas, numpy, scikit-learn, nltk.
 
-This project uses Python programming language and various libraries such as pandas, numpy, scikit-learn, and nltk to preprocess the data and extract features. The final output is a movie recommendation system that suggests movies to users based on their search query.
+🎯 Outcome: A user-friendly movie recommendation system that intelligently suggests movies based on user preferences.
+
+2. ## Hate Speech Detection in Tweets using embeddings and Logistic regression
+
+🔍 Overview: Classify tweets into 'normal' and 'hate speech' categories using embeddings and logistic regression.
+
+    📈 Data Preparation:
+        Aggregate and process data from CSV files containing normal and hate speech tweets.
+
+    🔧 Text Preprocessing:
+        Clean tweets by removing special characters, tokenizing text, removing stopwords, and applying lemmatization.
+
+    📊 Feature Extraction:
+        Implement GloVe vectors for transforming text data into numerical format.
+
+    🤖 Model Training:
+        Split data into training and testing sets.
+        Train a Logistic Regression model, optimizing parameters with GridSearch.
+
+    📏 Evaluation:
+        Assess model performance using accuracy, precision, recall, F1-score, and confusion matrix.
+
+🛠 Tools & Libraries: Python, pandas, scikit-learn, nltk, GloVe.
+
+🎯 Outcome: A robust system capable of accurately identifying hate speech in tweets.
